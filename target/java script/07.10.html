@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-image: url(gold.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            </style>
+    </head>
+  
+  
+  
+   <body>
+
+        <h2>BISCUIT</h2>
+
+        <button type="button"
+        onclick="document.getElementById('gold').innerHTML = Date()">
+        Click me to get date and time.</button>
+
+    <p id="gold"></p>
+
+    <h2>TYPES OF BISCUIT</h2>
+
+    <p id="gold">Availability GOLD</p>
+
+    <button type="button" onclick='document.getElementById("gold").innerHTML = "Black market DIAMOND"'>Click Me!</button>
+
+    <p id="avi"></p>
+
+    <script>
+    document.getElementById("avi").innerHTML = 600-100;
+    </script>
+    
+
+    
+<p id="time">DIAMOND</p>
+
+<script>
+if (new Date().getHours() < 21) {
+  document.getElementById("time").innerHTML = "GOLD";
+}
+</script>
+    </body>
+</body>
+</html> 
